@@ -20,7 +20,8 @@ Suggested protocol:
   - do it while you want it
   - end
  
-*samples was taken from MNIST datasets*
+*samples was taken from MNIST datasets   http://yann.lecun.com/exdb/mnist/*
+
 They contain half of the samples (30000) ans you shouldn't set epsize > 30000
 Pretrained weights was get with epsize 50000. 
  
