@@ -7,10 +7,10 @@ b.cpp - the NN itself. You can import weiths in this script, train nn for better
 
 a.py - simple script woth interface for drawing digits by mouse, touchpad or something else.
   Hotkeys:
-    - c - clear the canvas
-    - p - shows interpolated version (you should not draw in  this mode)
-    - b - to back in normal mode after pressing p
-    everything else saves current state of canvas to file that could be read by NN in b.cpp
+  - c - clear the canvas
+  - p - shows interpolated version (you should not draw in  this mode) 
+  - b - to back in normal mode after pressing p
+  everything else saves current state of canvas to file that could be read by NN in b.cpp
     
 Suggested protocol: 
   - run b.exe after compiling b.cpp
