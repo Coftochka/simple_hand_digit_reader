@@ -17,7 +17,7 @@ vector<int> settings = {785, 17, 17, 10};
 
 const double speed = 0.01;
 const double moment = 0.005;
-const int epsize = 50000;
+const int epsize = 30000;
 
 const int gsize = 10;
 const int threads = 2;
