@@ -1,16 +1,16 @@
 # simple_hand_digit_reader
-simplest trained neural network + script for testing by tourself
+simplest trained neural network + script for testing by yourself
 
-AI.save - saved weights for NN, so if you dont want to spend time on training, you are able to use it.
+AI.save - saved weights for NN. So if you don't want to spend time on training, you are able to use it.
 
-b.cpp - the NN itself. You can import weiths in this script, train nn for better results, test it or just have fun
+nn.cpp - the NN itself. You can import weiths in this script, train NN for better results, test it or just have fun
 
-a.py - simple script woth interface for drawing digits by mouse, touchpad or something else.
+a.py - simple script with interface for drawing digits by mouse, touchpad or something else.
   Hotkeys:
   - c - clear the canvas
   - p - shows interpolated version (you should not draw in  this mode) 
   - b - to back in normal mode after pressing p
-  everything else saves current state of canvas to file that could be read by NN in b.cpp
+  everything else saves current state of canvas to file that could be read by NN in nn.cpp
     
 Suggested protocol: 
   - run b.exe after compiling b.cpp
@@ -20,9 +20,9 @@ Suggested protocol:
   - do it while you want it
   - end
  
-*samples was taken from MNIST datasets   http://yann.lecun.com/exdb/mnist/*
+*samples has been taken from MNIST datasets   http://yann.lecun.com/exdb/mnist/*
 
-They contain half of the samples (30000) ans you shouldn't set epsize > 30000
+They contain half of the samples from MNIST (30000) and you shouldn't set epsize > 30000
 Pretrained weights was get with epsize 50000. 
  
  thx ^v^ )
